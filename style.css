@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#solution-button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgreen;
+}
+
+#num-answer, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}

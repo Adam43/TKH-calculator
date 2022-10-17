@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwame's Calcultor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Kwame's Calculator</h1>
+    <form>
+        <!-- input 1 --> 
+        <input type="number" id="num1" name="num1">
+        <!--operation selection-->
+    <select name="operation" id="operation">
+        <option value="add">+ plus</option>
+        <option value="subtract">- minus</option>
+        <option value="multiply">x multiply</option>
+        <option value="divide">/ divide</option>
+    </select>
+        <!--input 2-->
+        <input type="number" id="num2" name="quantity">
+    </form>
+    <button id="solution-button" onclick="solutionClicked()">Enter</button>
+    <h2> Answer: <span id="num-answer">0</span></h2>
+    <script src="calculator.js"></script>
+</body>
+</html>
